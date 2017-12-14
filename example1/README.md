@@ -10,7 +10,10 @@ docker-compose up --build
 
 ## Local
 
+Uses [pipenv](https://docs.pipenv.org/) for dependency management. Feel free to run `pip install gunicorn Flask` if you don't want to bother.
+
 ```
+pip install --upgrade pipenv
 pipenv install
 ./start.sh
 ```
