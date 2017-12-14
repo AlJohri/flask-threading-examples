@@ -1,0 +1,7 @@
+version: '2'
+services:
+
+  app:
+    build: .
+    ports: ["5000:5000"]
+    command: "/code/start.sh"
